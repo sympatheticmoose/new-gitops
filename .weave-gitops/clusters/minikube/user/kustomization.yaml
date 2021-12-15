@@ -7,3 +7,4 @@ resources:
 - ../../../apps/podinfo-deploy
 - ../../../apps/blah
 - ../../../apps/blah
+- ../../../apps/blah
