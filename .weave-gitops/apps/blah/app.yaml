@@ -3,13 +3,13 @@ apiVersion: wego.weave.works/v1alpha1
 kind: Application
 metadata:
   labels:
-    wego.weave.works/app-identifier: wego-d0149a5eb86eb7821918c1e2797989de
+    wego.weave.works/app-identifier: wego-f4c35363aea36d50dcd1c0f3db75da52
   name: blah
   namespace: wego-system
 spec:
   branch: master
   config_repo: ssh://git@github.com/sympatheticmoose/new-gitops.git
   deployment_type: kustomize
-  path: ./
+  path: /deploy/kubernetes/helm-chart
   source_type: git
   url: ssh://git@github.com/sympatheticmoose/microservices-demo.git
