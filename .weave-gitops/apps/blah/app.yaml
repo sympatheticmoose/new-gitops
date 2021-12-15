@@ -1,0 +1,15 @@
+---
+apiVersion: wego.weave.works/v1alpha1
+kind: Application
+metadata:
+  labels:
+    wego.weave.works/app-identifier: wego-d0149a5eb86eb7821918c1e2797989de
+  name: blah
+  namespace: wego-system
+spec:
+  branch: master
+  config_repo: ssh://git@github.com/sympatheticmoose/new-gitops.git
+  deployment_type: kustomize
+  path: ./
+  source_type: git
+  url: ssh://git@github.com/sympatheticmoose/microservices-demo.git
