@@ -8,7 +8,7 @@ metadata:
   namespace: wego-system
 spec:
   branch: main
-  config_repo: ssh://git@github.com/sympatheticmoose/new-gitops.git
+  config_url: ssh://git@github.com/sympatheticmoose/new-gitops.git
   deployment_type: kustomize
   path: ./
   source_type: git
